@@ -1,18 +1,12 @@
 import math 
 import os 
 import re 
-from io 
-import BytesIO 
-from pathlib 
-import Path 
-from typing 
-import Optional, Tuple, List, Dict
-import pandas 
-as pd 
-import streamlit 
-as st 
-from sqlalchemy 
-import create_engine, text
+from io import BytesIO 
+from pathlib import Path 
+from typing import Optional, Tuple, List, Dict
+import pandas as pd 
+import streamlit as st 
+from sqlalchemy import create_engine, text
 
 st.set_page_config(page_title="BBQ 발주 분석 V6", layout="wide")
 
